@@ -1,8 +1,8 @@
 a = 10
 b = 20.20
-c = 'Shubham..'
-d = "Shubham.."
-e = '''Shubham..'''
+c = 'Abhi..'
+d = "Abhi.."
+e = '''Abhi..'''
 print(a)
 print(b)
 print(c)
