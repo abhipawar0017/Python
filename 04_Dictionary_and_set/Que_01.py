@@ -1,8 +1,8 @@
-dict = {"Shubham": "Coder",
-        "Sunil": "An IAS Officer",
-        "Ganesh": "A Farmastist",
-        "Shanker": "A Farmastest",
-        "Darshana": "Enginerring"}
+dict = {"Abhi": "Pawar",
+        "Sunil": "IAS",
+        "Ganesh": "Farmastist",
+        "Shanker": "Farmastest",
+        "Tush": "Engineer"}
 print(dict.keys())
 key = input("Enter a Key: ")
 print(dict.get(key))
