@@ -1,0 +1,368 @@
+#Answers below Question without running the programs:---
+
+# 1. Which of the following is not used as loop in Python?
+
+# A. for loop
+# B. while loop
+# C. do-while loop
+# D. None of the above
+#==> C
+
+
+# 2. Which of the following is False regarding loops in Python?
+
+# A. Loops are used to perform certain tasks repeatedly.
+# B. While loop is used when multiple statements are to executed repeatedly until the given condition becomes False
+# C. While loop is used when multiple statements are to executed repeatedly until the given condition becomes True.
+# D. for loop can be used to iterate through the elements of lists.
+#==> B
+
+
+# 3. Which of the following is True regarding loops in Python?
+
+# A. Loops should be ended with keyword "end".
+# B. No loop can be used to iterate through the elements of strings.
+# C. Keyword "break" can be used to bring control out of the current loop.
+# D. Keyword "continue" is used to continue with the remaining statements inside the loop.
+#==> C
+
+
+# 4. What will be the output of given Python code?
+
+# n=7
+
+# c=0
+
+# while(n):
+
+#     if(n>5):
+
+#         c=c+n-1
+
+#         n=n-1
+
+#     else:
+
+#         break
+
+# print(n)
+
+# print(c)
+
+
+# A. 5 11
+# B. 5 9
+# C. 7 11
+# D. 5 2
+#==> A
+
+
+# 5. What will be the output of given Python code?
+
+# str1="hello"
+# c=0
+# for x in str1:
+#    if(x!="l"):
+#        c=c+1
+#    else:
+#        pass
+# print(c)
+# A. 2
+# B. 0
+# C. 4
+# D. 3
+#==> D. 3
+
+
+# 6. Which of the following Python code will give different output from the others?
+
+# A. for i in range(0,5):
+#     print(i)
+# B. for j in [0,1,2,3,4]:
+#     print(j)
+# C. for k in [0,1,2,3,4,5]:
+#     print(k)
+# D. for l in range(0,5,1):
+#     print(l)
+#==> C.
+
+
+# 7. How many times will the loop run?
+
+# i=2
+
+# while(i>0):
+
+#     i=i-1
+
+# A. 2
+# B. 3
+# C. 1
+# D. 0
+#==> A
+
+
+# 8. What will be the output of the following Python code?
+
+# list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+
+# sum = 0
+
+# sum1 = 0
+
+# for elem in list1:
+
+#     if (elem % 2 == 0):
+
+#         sum = sum + elem
+
+#         continue
+
+#     if (elem % 3 == 0):
+
+#         sum1 = sum1 + elem
+
+# print(sum , end=" ")
+
+# print(sum1)
+
+# A. 8 9
+# B. 8 3
+# C. 2 3
+# D. 8 12
+#==> A
+
+
+# 9. What will be the output of the following Python code?
+
+# str1="learn python"
+
+# str2=""
+
+# str3=""
+
+# for x in str1:
+
+#     if(x=="r" or x=="n" or x=="p"):
+
+#         str2+=x
+
+#         pass
+
+#     if(x=="r" or x=="e" or x=="a"):
+
+#         str3+=x
+
+# print(str2,end=" ")
+
+# print(str3)
+
+# A. rnpn ea
+# B. rnpn ear
+# C. rnp ea
+# D. rnp ear
+#==> B
+
+
+# 10. What will be the output of the following Python code?
+
+# for i in range(0,2,-1):
+
+#     print("Hello")
+
+# A. Hello
+# B. Hello Hello
+# C. No Output
+# D. Error
+#==> C
+
+
+
+# 11. Which one of the following is a valid Python if statement :
+
+# A. if a>=2 :
+# B. if (a >= 2)
+# C. if (a => 22)
+# D. if a >= 22
+#==> A
+
+
+# 12. What keyword would you use to add an alternative condition to an if statement?
+
+# A. else if
+# B. elseif
+# C. elif
+# D. None of the above
+#==> C
+
+
+# 13. Can we write if/else into one line in python?
+
+# A. Yes
+# B. No
+# C. if/else not used in python
+# D. None of the above
+#==> A
+
+
+# 14. In a Python program, a control structure:
+
+# A. Defines program-specific data structures
+# B. Directs the order of execution of the statements in the program
+# C. Dictates what happens before the program starts and after it terminates
+# D. None of the above
+#==> B
+
+
+# 15. What will be output of this expression:
+
+# 'p' + 'q' if '12'.isdigit() else 'r' + 's'
+# A. pq
+# B. rs
+# C. pqrs
+# D. pq12
+#==> A
+
+
+# 16. Which statement will check if a is equal to b?
+
+# A. if a = b:
+# B. if a == b:
+# C. if a === c:
+# D. if a == b
+#==> B
+
+
+# 17. Does python have switch case statement?
+
+# A. True
+# B. False
+# C. Python has switch statement but we can not use it.
+# D. None of the above
+#==> B
+
+
+# 18. Which of the following is a valid for loop in Python?
+
+# A. for(i=0; i < n; i++)
+# B. for i in range(0,5):
+# C. for i in range(0,5)
+# D. for i in range(5)
+#==> B
+
+
+# 19. Which of the following sequences would be generated bt the given line of code?
+
+# range (5, 0, -2)
+# A. 5 4 3 2 1 0 -1
+# B. 5 4 3 2 1 0
+# C. 5 3 1
+# D. None of the above
+#==> C
+
+
+# 20. A while loop in Python is used for what type of iteration?
+
+# A. indefinite
+# B. discriminant
+# C. definite
+# D. indeterminate
+#==> A
+
+
+# 21. When does the else statement written after loop executes?
+
+# A. When break statement is executed in the loop
+# B. When loop condition becomes false
+# C. Else statement is always executed
+# D. None of the above
+#==> B
+
+
+# 22. What will be the output of the following code?
+
+# x = "abcdef"
+
+# i = "i"
+
+# while i in x:
+
+#     print(i, end=" ")
+# A. a b c d e f
+# B. abcdef
+# C. i i i i i.....
+# D. No Output
+#==> D
+
+
+# 23. What will be the output of the following code?
+
+# x = "abcd"
+
+# for i in range(len(x)):
+
+#     print(i)
+# A. abcd
+# B. 0 1 2 3
+# C. 1 2 3 4
+# D. a b c d
+#==> B
+
+
+# 24. What will be the output of the following code?
+
+# x = 12
+
+# for i in x:
+
+#     print(i)
+
+# A. 12
+# B. 1 2
+# C. Error
+# D. None of the above
+#==> C
+
+
+# 25. A loop becomes infinite loop if a condition never becomes ________.
+
+# A. TRUE
+# B. FALSE
+# C. Null
+# D. Both A and C
+#==> B
+
+
+# 26. If the else statement is used with a while loop, the else statement is executed when the condition becomes _______.
+
+# A. TRUE
+# B. FALSE
+# C. Infinite
+# D. Null
+#==> A
+
+
+# 27. Python programming language allows to use one loop inside another loop known as?
+
+# A. switch
+# B. foreach
+# C. nested
+# D. forall
+#==> C
+
+# 28. The ________ statement is a null operation.
+
+# A. break
+# B. exit
+# C. return
+# D. pass
+#==> B
+
+
+# 29. The continue statement can be used in?
+
+# A. while loop
+# B. for loop
+# C. do-while
+# D. Both A and B
+#==> D
